@@ -14,7 +14,7 @@ resultint = int(resulttext)
 
 if resultint <= 10 or resultint >= 90:
   print(f"Your score is {resultint}, you go together like coke and mentos.")
-elif resultint >= 40 and resultint <=50:
+elif resultint >= 40 or resultint <=50:
   print(f"Your score is {resultint}, you are alright together.")
 else:
   print(f"Your score is {resultint}, you are in much love.")
